@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ABD3BD71E8468EA00F285A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD3BD61E8468EA00F285A0 /* AppDelegate.swift */; };
+		7ABD3BD91E8468EA00F285A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7ABD3BD81E8468EA00F285A0 /* GameScene.sks */; };
+		7ABD3BDB1E8468EA00F285A0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7ABD3BDA1E8468EA00F285A0 /* Actions.sks */; };
+		7ABD3BDD1E8468EA00F285A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD3BDC1E8468EA00F285A0 /* GameScene.swift */; };
+		7ABD3BDF1E8468EA00F285A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD3BDE1E8468EA00F285A0 /* GameViewController.swift */; };
+		7ABD3BE21E8468EA00F285A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABD3BE01E8468EA00F285A0 /* Main.storyboard */; };
+		7ABD3BE41E8468EA00F285A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABD3BE31E8468EA00F285A0 /* Assets.xcassets */; };
+		7ABD3BE71E8468EA00F285A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABD3BE51E8468EA00F285A0 /* LaunchScreen.storyboard */; };
+		7ABD3BF21E8468EA00F285A0 /* swiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD3BF11E8468EA00F285A0 /* swiftrisTests.swift */; };
+		7ABD3BFD1E8468EB00F285A0 /* swiftrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD3BFC1E8468EB00F285A0 /* swiftrisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ABD3BEE1E8468EA00F285A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABD3BCB1E8468EA00F285A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABD3BD21E8468EA00F285A0;
+			remoteInfo = swiftris;
+		};
+		7ABD3BF91E8468EA00F285A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABD3BCB1E8468EA00F285A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABD3BD21E8468EA00F285A0;
+			remoteInfo = swiftris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ABD3BD31E8468EA00F285A0 /* swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABD3BD61E8468EA00F285A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ABD3BD81E8468EA00F285A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7ABD3BDA1E8468EA00F285A0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7ABD3BDC1E8468EA00F285A0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7ABD3BDE1E8468EA00F285A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7ABD3BE11E8468EA00F285A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ABD3BE31E8468EA00F285A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABD3BE61E8468EA00F285A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ABD3BE81E8468EA00F285A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABD3BED1E8468EA00F285A0 /* swiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABD3BF11E8468EA00F285A0 /* swiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftrisTests.swift; sourceTree = "<group>"; };
+		7ABD3BF31E8468EA00F285A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABD3BF81E8468EA00F285A0 /* swiftrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABD3BFC1E8468EB00F285A0 /* swiftrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftrisUITests.swift; sourceTree = "<group>"; };
+		7ABD3BFE1E8468EB00F285A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ABD3BD01E8468EA00F285A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABD3BEA1E8468EA00F285A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABD3BF51E8468EA00F285A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ABD3BCA1E8468EA00F285A0 = {
+			isa = PBXGroup;
+			children = (
+				7ABD3BD51E8468EA00F285A0 /* swiftris */,
+				7ABD3BF01E8468EA00F285A0 /* swiftrisTests */,
+				7ABD3BFB1E8468EB00F285A0 /* swiftrisUITests */,
+				7ABD3BD41E8468EA00F285A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABD3BD41E8468EA00F285A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD3BD31E8468EA00F285A0 /* swiftris.app */,
+				7ABD3BED1E8468EA00F285A0 /* swiftrisTests.xctest */,
+				7ABD3BF81E8468EA00F285A0 /* swiftrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ABD3BD51E8468EA00F285A0 /* swiftris */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD3BD61E8468EA00F285A0 /* AppDelegate.swift */,
+				7ABD3BD81E8468EA00F285A0 /* GameScene.sks */,
+				7ABD3BDA1E8468EA00F285A0 /* Actions.sks */,
+				7ABD3BDC1E8468EA00F285A0 /* GameScene.swift */,
+				7ABD3BDE1E8468EA00F285A0 /* GameViewController.swift */,
+				7ABD3BE01E8468EA00F285A0 /* Main.storyboard */,
+				7ABD3BE31E8468EA00F285A0 /* Assets.xcassets */,
+				7ABD3BE51E8468EA00F285A0 /* LaunchScreen.storyboard */,
+				7ABD3BE81E8468EA00F285A0 /* Info.plist */,
+			);
+			path = swiftris;
+			sourceTree = "<group>";
+		};
+		7ABD3BF01E8468EA00F285A0 /* swiftrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD3BF11E8468EA00F285A0 /* swiftrisTests.swift */,
+				7ABD3BF31E8468EA00F285A0 /* Info.plist */,
+			);
+			path = swiftrisTests;
+			sourceTree = "<group>";
+		};
+		7ABD3BFB1E8468EB00F285A0 /* swiftrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD3BFC1E8468EB00F285A0 /* swiftrisUITests.swift */,
+				7ABD3BFE1E8468EB00F285A0 /* Info.plist */,
+			);
+			path = swiftrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ABD3BD21E8468EA00F285A0 /* swiftris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABD3C011E8468EB00F285A0 /* Build configuration list for PBXNativeTarget "swiftris" */;
+			buildPhases = (
+				7ABD3BCF1E8468EA00F285A0 /* Sources */,
+				7ABD3BD01E8468EA00F285A0 /* Frameworks */,
+				7ABD3BD11E8468EA00F285A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftris;
+			productName = swiftris;
+			productReference = 7ABD3BD31E8468EA00F285A0 /* swiftris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ABD3BEC1E8468EA00F285A0 /* swiftrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABD3C041E8468EB00F285A0 /* Build configuration list for PBXNativeTarget "swiftrisTests" */;
+			buildPhases = (
+				7ABD3BE91E8468EA00F285A0 /* Sources */,
+				7ABD3BEA1E8468EA00F285A0 /* Frameworks */,
+				7ABD3BEB1E8468EA00F285A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABD3BEF1E8468EA00F285A0 /* PBXTargetDependency */,
+			);
+			name = swiftrisTests;
+			productName = swiftrisTests;
+			productReference = 7ABD3BED1E8468EA00F285A0 /* swiftrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ABD3BF71E8468EA00F285A0 /* swiftrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABD3C071E8468EB00F285A0 /* Build configuration list for PBXNativeTarget "swiftrisUITests" */;
+			buildPhases = (
+				7ABD3BF41E8468EA00F285A0 /* Sources */,
+				7ABD3BF51E8468EA00F285A0 /* Frameworks */,
+				7ABD3BF61E8468EA00F285A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABD3BFA1E8468EA00F285A0 /* PBXTargetDependency */,
+			);
+			name = swiftrisUITests;
+			productName = swiftrisUITests;
+			productReference = 7ABD3BF81E8468EA00F285A0 /* swiftrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ABD3BCB1E8468EA00F285A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rodney Curl";
+				TargetAttributes = {
+					7ABD3BD21E8468EA00F285A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7ABD3BEC1E8468EA00F285A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ABD3BD21E8468EA00F285A0;
+					};
+					7ABD3BF71E8468EA00F285A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ABD3BD21E8468EA00F285A0;
+					};
+				};
+			};
+			buildConfigurationList = 7ABD3BCE1E8468EA00F285A0 /* Build configuration list for PBXProject "swiftris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABD3BCA1E8468EA00F285A0;
+			productRefGroup = 7ABD3BD41E8468EA00F285A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ABD3BD21E8468EA00F285A0 /* swiftris */,
+				7ABD3BEC1E8468EA00F285A0 /* swiftrisTests */,
+				7ABD3BF71E8468EA00F285A0 /* swiftrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ABD3BD11E8468EA00F285A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABD3BE21E8468EA00F285A0 /* Main.storyboard in Resources */,
+				7ABD3BD91E8468EA00F285A0 /* GameScene.sks in Resources */,
+				7ABD3BE41E8468EA00F285A0 /* Assets.xcassets in Resources */,
+				7ABD3BE71E8468EA00F285A0 /* LaunchScreen.storyboard in Resources */,
+				7ABD3BDB1E8468EA00F285A0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABD3BEB1E8468EA00F285A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABD3BF61E8468EA00F285A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ABD3BCF1E8468EA00F285A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABD3BDD1E8468EA00F285A0 /* GameScene.swift in Sources */,
+				7ABD3BDF1E8468EA00F285A0 /* GameViewController.swift in Sources */,
+				7ABD3BD71E8468EA00F285A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABD3BE91E8468EA00F285A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABD3BF21E8468EA00F285A0 /* swiftrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABD3BF41E8468EA00F285A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABD3BFD1E8468EB00F285A0 /* swiftrisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABD3BEF1E8468EA00F285A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABD3BD21E8468EA00F285A0 /* swiftris */;
+			targetProxy = 7ABD3BEE1E8468EA00F285A0 /* PBXContainerItemProxy */;
+		};
+		7ABD3BFA1E8468EA00F285A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABD3BD21E8468EA00F285A0 /* swiftris */;
+			targetProxy = 7ABD3BF91E8468EA00F285A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ABD3BE01E8468EA00F285A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABD3BE11E8468EA00F285A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ABD3BE51E8468EA00F285A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABD3BE61E8468EA00F285A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ABD3BFF1E8468EB00F285A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ABD3C001E8468EB00F285A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ABD3C021E8468EB00F285A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swiftris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodneycurl.swiftris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7ABD3C031E8468EB00F285A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swiftris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodneycurl.swiftris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7ABD3C051E8468EB00F285A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swiftrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodneycurl.swiftrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftris.app/swiftris";
+			};
+			name = Debug;
+		};
+		7ABD3C061E8468EB00F285A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swiftrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodneycurl.swiftrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftris.app/swiftris";
+			};
+			name = Release;
+		};
+		7ABD3C081E8468EB00F285A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = swiftrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodneycurl.swiftrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swiftris;
+			};
+			name = Debug;
+		};
+		7ABD3C091E8468EB00F285A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = swiftrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodneycurl.swiftrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swiftris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ABD3BCE1E8468EA00F285A0 /* Build configuration list for PBXProject "swiftris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABD3BFF1E8468EB00F285A0 /* Debug */,
+				7ABD3C001E8468EB00F285A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABD3C011E8468EB00F285A0 /* Build configuration list for PBXNativeTarget "swiftris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABD3C021E8468EB00F285A0 /* Debug */,
+				7ABD3C031E8468EB00F285A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ABD3C041E8468EB00F285A0 /* Build configuration list for PBXNativeTarget "swiftrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABD3C051E8468EB00F285A0 /* Debug */,
+				7ABD3C061E8468EB00F285A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ABD3C071E8468EB00F285A0 /* Build configuration list for PBXNativeTarget "swiftrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABD3C081E8468EB00F285A0 /* Debug */,
+				7ABD3C091E8468EB00F285A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ABD3BCB1E8468EA00F285A0 /* Project object */;
+}
